@@ -1,5 +1,3 @@
-
-
 function App() {
   return (
     <>
@@ -7,7 +5,7 @@ function App() {
         <p>hola</p>
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
