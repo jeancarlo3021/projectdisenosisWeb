@@ -3,6 +3,15 @@ import prueva from '../../img/descarga.jpg'
 import '../../styles/App.css'
 
 const producto = () => {
+  const [post, setPost] = React.useState(null)
+
+  React.useEffect(() => {
+    API.get('productis.json/').then((res) => {
+      setPost(res.data)
+    })
+  }, [])
+
+  if (!post) return null
   // API.get('productos.json/').then((res) => {
   //   console.log(res.json)
   //   console.log(res.data)
