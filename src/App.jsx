@@ -1,9 +1,11 @@
+import 'bootstrap'
+import { Route, Routes } from 'react-router-dom'
+import Body from './component/Body/body'
+
 function App() {
   return (
     <>
-      <div>
-        <p>hola</p>
-      </div>
+      <Body></Body>
     </>
   )
 }

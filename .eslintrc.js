@@ -18,7 +18,7 @@ module.exports = {
         version: '18.2', // React version
       },
     },
-    extends: ['plugin:react/recommended', 'standard', 'prettier'],
+    extends: ['plugin:react/recommended', 'prettier'],
     plugins: ['react'],
     rules: {
       'react/prop-types': 'off',
