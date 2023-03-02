@@ -1,3 +1,5 @@
-import React from 'react'
+import axios from 'axios'
 
-const axios = () => {}
+export default axios.create({
+  baseURL: `https://eng-artifact-377202-default-rtdb.firebaseio.com/`,
+})

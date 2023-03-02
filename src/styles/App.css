@@ -1,0 +1,13 @@
+.color{
+  background-color:#46C4AA;
+  border-color: #46C4AA;
+}
+
+.img-carta{
+  padding-top: 10px;
+  width: 310px;
+  height: 300px;
+  margin: auto;
+  border-radius: 10%;
+  background-color: rgba(220, 220, 220, 0.145);
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../App.css'
+import '../../styles/App.css'
 
 const filtro = () => {
   return (
@@ -8,7 +8,7 @@ const filtro = () => {
       <div className='container text-center'>
         <div className='row mt-2'>
           <div className='col mt-3'>
-            <button className='btn btn-primary color w-'>Novedades</button>
+            <button className='btn btn-primary color '>Novedades</button>
           </div>
           <div className='col mt-3'>
             <button className='btn btn-primary color'>Promociones</button>
