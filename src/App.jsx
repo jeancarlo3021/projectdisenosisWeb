@@ -1,5 +1,4 @@
 import 'bootstrap'
-import { Route, Routes } from 'react-router-dom'
 import Body from './component/Body/body'
 
 function App() {
@@ -9,5 +8,4 @@ function App() {
     </>
   )
 }
-
 export default App
